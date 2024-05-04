@@ -1,0 +1,27 @@
+main {
+    text-align: center;
+    font-family: "Alegreya Sans";
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #232323;
+    color: white;
+}
+
+.title {
+    background-image: url(img/colvers-8173610_1280.jpg);
+    color: white;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.header__logo {
+    max-width: 50px;
+}
+
+.title__name {
+    color: #54be90;
+    text-decoration: underline;
+}
