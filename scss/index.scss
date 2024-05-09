@@ -1,0 +1,15 @@
+@import "_variables.scss";
+@import "header.scss";
+@import "overview.scss";
+@import "skills.scss";
+@import "portfolio.scss";
+@import "about.scss";
+@import "social.scss";
+@import "contact.scss";
+@import "footer.scss";
+
+
+body {
+    margin: 0;
+    font-family: $font;
+}

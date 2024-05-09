@@ -1,0 +1,22 @@
+.social {
+  background-color: #232323;
+  padding: 3rem;
+  padding-bottom: 2rem;
+
+  .social__title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .social__images {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  .social__img {
+    max-width: 200px;
+  }
+}

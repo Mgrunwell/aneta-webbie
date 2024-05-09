@@ -1,0 +1,67 @@
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+
+  h4 {
+    color: #54be90;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .skills__container {
+    width: 100%;
+    background-color: #ddd;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .skills__titles {
+      background-color: #232323;
+      padding: 10px;
+      width: 100px;
+      text-align: center;
+    }
+
+    .skills__html {
+        width: 80%;
+        background-color: #54be90;
+    }
+
+    .skills__css{
+        width: 80%;
+        background-color: #54be90;
+    }
+
+    .skills__javascript {
+        width: 70%;
+        background-color: #54be90;
+    }
+
+    .skills__react {
+        width: 60%;
+        background-color: #54be90;
+    }
+
+    .skills__jquery {
+        width: 70%;
+        background-color: #54be90;
+    }
+
+    .skills__php {
+        width: 60%;
+        background-color: #54be90;
+    }
+
+    .skills__laravel {
+        width: 60%;
+        background-color: #54be90;
+    }
+
+    .skills__ux {
+        width: 50%;
+        background-color: #54be90;
+    }
+  }
+}

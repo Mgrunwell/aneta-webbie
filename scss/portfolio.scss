@@ -1,0 +1,56 @@
+.portfolio {
+  background-color: #54be90;
+  padding: 1rem;
+
+  h5 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .porfolio__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1000px;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    .portfolio__card {
+      background-color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 300px;
+      border: #232323;
+      border-style: solid;
+      text-align: center;
+
+      .portfolio__desc {
+        background-color: #ebebeb;
+      }
+
+      .portfolio__strong {
+        background-color: #ebebeb;
+        width: 2rem;
+      }
+
+      .portfolio__button {
+        background-color: #54be90;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 50%;
+      }
+    }
+
+    .card__border {
+      border-style: solid;
+      border-width: thick;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+footer {
+  text-align: center;
+
+  .footer__title {
+    font-size: 40px;
+  }
+
+  .footer__images {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15rem;
+    padding-right: 15rem;
+
+    .footer__img {
+      max-width: 200px;
+    }
+  }
+}
